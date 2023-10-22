@@ -19,3 +19,14 @@ console.log(myNewCreatedDate.toLocaleString());
 let myTimeStamp = Date.now()
 console.log(myTimeStamp);
 console.log(myNewCreatedDate.getTime());
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth() + 1);
+console.log(newDate.getUTCDate());
+
+            /*******IMP */  console.log('                 IMPORTANT');   
+           console.log( newDate.toLocaleString('default',{
+                weekday: "long",
+                timeZoneName:"short"
+            }));
