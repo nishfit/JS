@@ -15,7 +15,7 @@
                 lastLoginDay: ["Monday","Tuesday"]
             }
 console.log(jsUser.isEmail)
-console.log(jsUser["isEmail"]);    //Should be used when there is (FuLL NAME) instead  of Name.
+console.log(jsUser["isEmail"]);    //Should be used when there is (FuLL NAME/symbol) instead  of Name.
 
 
 /****************Symbol */
