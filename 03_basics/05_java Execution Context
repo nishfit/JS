@@ -1,0 +1,13 @@
+1. JS Execution Context
+
+{} global EC of 'this' is windows global context cause generally runs in browser
+-> Global Execution context
+-> Function EC
+-> Eval EC (MongoDb)
+
+
+2. {}  Memory creation PHASES
+
+3. Execution PHASES
+        new variable environment will create
+        excecution thread will be created 
