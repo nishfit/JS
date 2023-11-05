@@ -17,10 +17,10 @@ console.log(gameName.toUpperCase());
 console.log(gameName.indexOf('t'));
 
 const subString = gameName.substring(0,4);
-console.log(subString);
+console.log(subString+"++SUBstring");
 
 const sliceString = gameName.slice(-4,0);
-console.log(sliceString+': Slice string');
+console.log(sliceString+': Slice string(-4,0)');
 
 const newString = '   Hello    guys i am here   ';
 console.log(newString);

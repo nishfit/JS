@@ -11,6 +11,8 @@ jsUser.greeting = function () {
     console.log("Hello JS USER");
 }
 console.log(jsUser.greeting());
+
+
 jsUser.greetingTwo = function () {
     console.log(`Hello JS USER,${this.isLoggedIn}`);
 }

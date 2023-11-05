@@ -28,4 +28,5 @@ console.log(loginUserMessage("Nishant"));
 function loginUserMessage(unsername = "sam"){   //sam will be default value if NO value is passed
     return `${unsername} just logged in.`
 }
-console.log(loginUserMessage());
+console.log(loginUserMessage("Nishant Singh"));
+console.log(loginUserMessage());    // It will show the defaUlt NAME which is sam in this case as given by me

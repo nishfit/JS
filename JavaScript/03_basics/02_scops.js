@@ -11,16 +11,17 @@ if(true){
     const e = 200
     var f = 300
 }
-//console.log(d);
-//console.log(e);
-console.log(f);
+//console.log(d);       error dega because printing out of scope
+//console.log(e);       error dega because printing out of scope
+console.log(f);         /*isko scope samajh nahi aata aur kahin 
+bhi koi update kia toh poore code me change ho jayega so better to be avoided*/
 
 function one(){
     const one1 = "One Excecuted"
 
     function two(){
-        const two2 = "TWO Executed";
-        console.log(`Executing ${one1} from Two`);
+        const two2 = "TWO Executed";        //console.log hua nahi toh print kahan se hoga
+        console.log(`**Executing ${one1} from Two**`);
     }
    // console.log(two2);
 

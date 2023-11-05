@@ -9,13 +9,13 @@ console.log(`toLocaleTimeString: `+myDate.toLocaleTimeString());
 
 console.log(`**************`);
 
-let myCreatedDate = new Date(2023,1   ,4)
+let myCreatedDate = new Date(2023,11,4) // jan is 0 indexed so it will o/p 12th month
 console.log(myCreatedDate.toLocaleString());
-/*********IMP***** */
+console.log('*********IMP*****');
 let myNewCreatedDate = new Date("01-14-2023");
 console.log(myNewCreatedDate.toLocaleString());
 
-/***Time Stamp***** */
+console.log('***Time Stamp*****' );
 let myTimeStamp = Date.now()
 console.log(myTimeStamp);
 console.log(myNewCreatedDate.getTime());
@@ -25,7 +25,7 @@ console.log(newDate);
 console.log(newDate.getMonth() + 1);
 console.log(newDate.getUTCDate());
 
-            /*******IMP */  console.log('                 IMPORTANT');   
+ console.log('**********IMPORTANT 2******');   
            console.log( newDate.toLocaleString('default',{
                 weekday: "long",
                 timeZoneName:"short"

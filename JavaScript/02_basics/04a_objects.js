@@ -12,7 +12,7 @@ console.log(course.coursename);
 // So to short it we use as following 
 
 const {courseInstructorname: ins} = course
-//    property to be used:short name = obj
+//    property to be used//short name = obj
 
 console.log(ins);
 

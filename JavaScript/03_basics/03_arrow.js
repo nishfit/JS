@@ -8,9 +8,9 @@ const user = {
     }
 
 }
-// user.welcomeMessage();
-// user.username = "Sam"
-// user.welcomeMessage();
+ user.welcomeMessage();
+ user.username = "Sam"
+ user.welcomeMessage();
 
 //console.log(this);
 
@@ -20,11 +20,11 @@ const user = {
 // }
 // chai()
 
-// const chai = function chai(){
-//     let username = "nishnat"
+// const chai1 = function chai(){
+//     let username = "nishant"
 //     console.log(this.username);
 // }
-// chai()
+// chai1()
 
 const chai = () => {
     let username = "nishnat"
@@ -39,6 +39,8 @@ const addTwo = (num1, num2) =>{  //Curly braces me return likhna padega
     return num1+num2
 }
 console.log(addTwo(3,4));
+
+
 //implicite return
 const addTwoa = (num1,num2) =>(num1+num2) // paranthesis me return use nahi hoga****will be used in REACT
 
