@@ -7,3 +7,20 @@ p{
 #firstPara{
     background-color: yellow;
 }
+#secondPara{
+    background-color: rgb(171, 18, 18, 0.699);
+}
+#thirdPara{
+    background-color: #42daf5;
+    width: 50%;
+    border: yellowgreen 5px solid;
+    border-radius: 5px;
+}
+h1{
+    background-color: azure;
+    border: solid brown 5px;
+    border-radius: 15px;
+}
+article{
+    
+}
