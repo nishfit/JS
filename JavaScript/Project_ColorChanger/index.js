@@ -1,7 +1,11 @@
-const buttons =document.querySelectorAll.button('.botton');
-const body = document.querySelector("body")
+const buttons = document.querySelectorAll('.button');
+const body = document.querySelector('body');
+// console.log('Hello');
 
 buttons.forEach(function (button){
-    console.log(button);
-    
+    console.log('button');
+    button.addEventListener('click', function (e){
+        console.log(e);
+        console.log(e.target);
+    })
 });
