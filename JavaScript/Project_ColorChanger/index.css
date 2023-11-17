@@ -1,0 +1,33 @@
+body{
+    background:aquamarine;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    border: black 1px solid;
+    float: left;
+    margin-inline-start: 10px;
+    margin-top: 10px;
+    
+}
+.main{
+    border: solid black 1px;
+    overflow: auto;
+    background: limegreen;
+    width: 460px;
+    height: 140px;
+
+    
+}
+#grey{
+    background: grey;
+}
+#white{
+    background: white;
+}
+#blue{
+    background: blue;
+}
+#yellow{
+    background: yellow;
+}
