@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.input{
+    text-align: right;
+}
+
+#display{
+    border: black solid 1px;
+    padding-top: 10px;
+    width: 80%;
+    height: 20px;
+    padding-left: 55px;
+    
+}
+.button{
+    border: solid 1px black;
+    padding: 10px;
+    background: #F0D699;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+    
+
+.main{
+    border: 2px black solid;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 300px;
+    height: 70vw;
+    width: 420px;
+    background: #304D4E;
+    padding: 20px;
+    justify-content: center;
+}

@@ -7,7 +7,6 @@ var colorarray = ["#e58e26", "#f9b4ab", "#B1FB17", "#78e08f", "#fd79a8"];
 var colorbox = document.getElementById("colorbox");
 
 colorarray.forEach(function (color, index) {
-    console.log(color);
 	let span = document.createElement("span");
 	span.style.backgroundColor = color;
 	span.addEventListener("click", function () {
