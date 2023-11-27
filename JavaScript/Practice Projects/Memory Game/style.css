@@ -27,7 +27,7 @@ html,body{
     border-radius: 2px;
     margin: 25px;
 }
-/* @-webkit-keyframes color_change {
-	from { background-color: #0433FF; }
-	to { background-color: red; }
-} */
+.transp{
+    background: #000;
+    
+}

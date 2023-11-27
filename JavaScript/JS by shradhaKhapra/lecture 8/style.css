@@ -1,0 +1,14 @@
+div{
+    margin: 10px;
+    border: 2px solid beige;
+    border-radius: 5px;
+    padding: 5px;
+}
+.light{
+    background: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
