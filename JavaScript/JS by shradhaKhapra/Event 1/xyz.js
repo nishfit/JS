@@ -5,7 +5,7 @@ document.querySelector("body").append(el);
 
 
 let div1 = document.createElement("div")
-div1.innerHTML = " Hello this is div element";
+div1.innerHTML = "<ul> <li>1</li><li>2</li><li>3</li></ul>";
 document.querySelector("body").append(div1);
 
 
