@@ -1,0 +1,41 @@
+body{
+
+    background:aquamarine;
+    margin-top: 20%;
+    
+}
+.button{
+    width: 100px;
+    height: 100px;
+    border: black 1px solid;
+    border-radius: 5%;
+    margin: 15px;
+    
+}
+.main{
+    border: solid black 1px;
+    overflow: auto;
+    background: limegreen;
+    width: 460px;
+    height: 140px;
+    justify-content: center;
+    display: flex;    
+}
+#grey{
+    background: grey;
+}
+#white{
+    background: white;
+}
+#blue{
+    background: blue;
+}
+#yellow{
+    background: yellow;
+}
+.center{
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+    margin: 50px;
+}
