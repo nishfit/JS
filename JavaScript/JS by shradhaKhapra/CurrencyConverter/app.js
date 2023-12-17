@@ -3,6 +3,7 @@ const BASE_URL =
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 
+console.log(countryList);
 
 
 // for(let select of dropdowns){
