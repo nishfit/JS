@@ -5,10 +5,6 @@ const dropdowns = document.querySelectorAll(".dropdown select");
 
 
 
-for(code of countryList){
-    console.log(code);
-}
-
 // for(let select of dropdowns){
 //     for(currCode in countryList){
 //         let newOption = document.createElement("option");
