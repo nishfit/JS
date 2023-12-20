@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 10vh;
+    height: 70vh;
+    width: 70vh;
+    border: #B6FFFA solid 5px;
+    background-color: #E26EE5;
+    border-radius: 10px;
+    
+}
+.img{
+    width: 40vh;
+    height: 35vh;
+    background-color: beige;
+    margin:2vh 14vh 0 15vh;
+    position: relative;
+    overflow: hidden;
+}
+h2{
+    margin: auto;
+    color: blue;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    margin: 10px;
+}
+#n124{
+    width: 40vh;
+    height: 35vh;
+    position: absolute;
+    transition: 1s;
+}
+
