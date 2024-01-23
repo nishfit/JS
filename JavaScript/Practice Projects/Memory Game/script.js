@@ -7,4 +7,4 @@ Array.from(button).forEach( (buttons) => {
             button.querySelector("#2").classList.add("transp");
             console.log(classList);
     } )
-} )
+} ) 

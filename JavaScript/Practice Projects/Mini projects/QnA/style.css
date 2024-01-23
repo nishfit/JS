@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 25vh;
+}
+.General-questions{
+    text-align: center;
+
+}
+div{
+    /* border: solid #00ADB5 1px; */
+    margin-top: 5px;
+    padding: 10px;
+}
+.questions{
+    margin-top: 20px;
+    width: 80vh;
+    background-color: #3B3486;
+    border-radius: 5px;
+}
+.answers{
+    width: 80vh;
+    background-color: #864AF9 ;
+    border-radius: 5px;
+}
+.icon{
+    height: 15px;
+    background-color: aliceblue;
+}
+.hide{
+    display: none;
+}
