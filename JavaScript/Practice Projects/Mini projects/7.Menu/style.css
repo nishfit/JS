@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    
+    border: solid black 2px;
+}
+.photo{
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #FB8B24;
+}
+h4{
+    display: inline;
+    text-align: justify;
+    border: solid goldenrod 1px;
+    
+}
+.item-info{
+    width: 200px;
+}
+.menu-items{
+    display: inline;
+    color: blue;
+}
+.menu{
+    border: 3px solid #F16896;
+    display: inline-block;
+    width: 600px;
+}
+.menu-items{
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    background-color: black;
+}

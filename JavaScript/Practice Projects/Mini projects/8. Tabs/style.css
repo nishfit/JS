@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EEEEEE;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main{
+    width: 180vh;
+    height: 95vh;
+    display: block;
+    border: solid black 1px;
+    padding-top: 20px;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.header{
+    text-align: center;
+    border: solid orange 1px;
+    width: 100%;
+    border-radius: 5px;
+}
+h2{
+    font-family: 'Protest Riot', sans-serif;
+}
+p{
+    color: #7C7575;
+    margin: 15px;
+}
+img{
+    height: 300px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.main-details{
+    width: 100%;
+    display: inline-block;
+    border: solid black 1px;
+    position:relative;
+    top: 10px;
+    border-radius: 5px;
+}
+span{
+    /* padding-right: 10px; */
+    display: inline-block;
+    border: solid 1px black;
+    width: 100%;
+    
+}
+.cols{
+    width: 30%;
+    border: solid blue 1px;
+    padding: 15px 0px 15px 0px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+}
+/* #history{
+    background-color: #FB9696;
+} */
+#vision{
+    background-color: #3DD2CC;
+}
+#goals{
+    background-color: #FFB367;
+}

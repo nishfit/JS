@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.outer{
+    margin-top: 15px;
+    width: 120vh;
+    height: 100vh;
+    background-color: #4C9173;
+    display: inline-block;
+}
+h2{
+    display: inline;
+    color: #B693FE ;
+    background-color: #4C9173 ;
+     margin-left: 40%;
+    border: 1px black solid;
+}
+.main{
+    margin: 5vh 5vh 0vh 5vh;
+    height: auto;
+    width: 110vh;
+    background-color: aliceblue;
+}
+.items{
+    display: inline-block;
+    margin: 2vh;
+    cursor: pointer;
+}
+img{
+    height: 20vh;
+    width: 30vh;
+    display: inline-block;
+}
+h4,p{
+    display: inline-block;
+    margin: 0 px;
+}
+.details{
+    display: inline-block;
+    height: 15vh;
+    width: 20vh;
+}
+.price{
+    cursor: pointer;
+}
+.desc{
+    display: inline-block;
+}
+.orders{
+    height: 60vh;
+    width: 50vh;
+    background-color:#FFF1AF;
+    border: solid black 2px;
+    display: block;
+    margin: 5px;
+    text-align: center;
+}
+.heading-orders{
+    background-color: #47B5FF;
+    padding: 5px;
+    color: #06283D;
+}
